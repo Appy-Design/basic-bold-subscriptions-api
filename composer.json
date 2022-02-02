@@ -1,0 +1,47 @@
+{
+    "name": "appydesign/basic-bold-subscriptions-api",
+    "description": "A simple wrapper for the Bold Subscriptions API",
+    "type": "library",
+    "keywords": [
+        "api",
+        "graphql",
+        "rest",
+        "shopify",
+        "wrapper"
+    ],
+    "authors": [
+        {
+            "name": "Appy Design",
+            "email": "support@appydesign.co.uk"
+        }
+    ],
+    "require": {
+        "php" : ">=7.3",
+        "ext-json": "*",
+        "caseyamcl/guzzle_retry_middleware": "^2.3",
+        "guzzlehttp/guzzle": "^6.5 || ^7.0"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.8",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/phpstan": "^0.12",
+        "phpunit/phpunit": "^6.2 || ^9.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Osiset\\BasicShopifyAPI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Osiset\\BasicShopifyAPI\\Test\\": "test/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/Appy-Design/basic-bold-subscriptions-apiissues",
+        "source": "https://github.com/Appy-Design/basic-bold-subscriptions-api"
+    }
+}
